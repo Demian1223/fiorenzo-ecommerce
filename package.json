@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcssstarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/assets/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/assets/output.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.1",
+    "@tailwindcss/cli": "^4.1.13"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.13"
+  }
+}

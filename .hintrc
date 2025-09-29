@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust",
+          "border-color: color-mix(in srgb, #fff 40%, transparent)",
+          "border-color: color-mix(in srgb, #fff 20%, transparent)",
+          "border-color: color-mix(in srgb, #fff 20%, transparent)"
+        ]
+      }
+    ]
+  }
+}
